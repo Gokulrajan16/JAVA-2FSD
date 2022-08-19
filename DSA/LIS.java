@@ -21,9 +21,7 @@ public class LIS {
 			
 			if (max_ref < max_ending_here)
 				max_ref = max_ending_here;
-
-			
-			return max_ending_here;
+               return max_ending_here;
 		}
 
 		
@@ -43,7 +41,6 @@ public class LIS {
 		{
 			int arr[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
 			int n = arr.length;
-			System.out.println("Length of lis is "
-							+ lis(arr, n) + "\n");
+			System.out.println("Length of lis is "+ lis(arr, n) + "\n");
 		}
 	}
